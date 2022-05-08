@@ -1,5 +1,6 @@
 <template>
 <nav>
+    <h1 class="portfolio">Portfólio</h1>
     <ul>
         <li>Sobre mim</li>
         <li>Projetos</li>
@@ -16,6 +17,8 @@
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Share+Tech+Mono&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -23,17 +26,35 @@
 }
 body{
     color: white;
+    background-color: #121212;
 }
 nav{
     width: 100vw;
-    height: 100px;
-    background-color: black;
-    text-align: center;
+    height: 70px;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio{
+    font-size: 1.7rem;
 }
 ul{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
+}
+li{
+    height: max-content;
+    font-size: 1.2rem;
+    letter-spacing: -0.08rem;
+    margin: 0 20px;
+}
+.portfolio, li{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    margin-left: 30px;
 }
 </style>
