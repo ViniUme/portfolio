@@ -17,17 +17,6 @@
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Share+Tech+Mono&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    color: white;
-    background-color: #121212;
-}
 nav{
     width: 100vw;
     height: 70px;
