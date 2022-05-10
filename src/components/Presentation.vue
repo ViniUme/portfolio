@@ -1,9 +1,3 @@
-<script>
-export default{
-    name: 'Presentation'
-}
-</script>
-
 <template>
     <div class="front">
         <div class="text_column">
@@ -20,6 +14,12 @@ export default{
     </div>
 </template>
 
+<script>
+export default{
+    name: 'Presentation'
+}
+</script>
+
 <style>
 :root{
     --green: #00CA38;
@@ -29,11 +29,11 @@ export default{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Share Tech Mono', monospace;
 }
 .front{
-    margin: 50px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100vw;
 }
 .text{
     font-size: 27px;
@@ -99,7 +99,7 @@ export default{
     }
 }
 
-@media(max-width: 800px){
+@media(max-width: 850px){
     .ilustration{
         display: none;
     }
