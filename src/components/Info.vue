@@ -58,7 +58,7 @@ export default {
 
 @media(max-width: 950px){
     .info_grid{
-        
+        flex-direction: column;
     }
 }
 </style>
