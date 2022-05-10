@@ -18,7 +18,7 @@
 
 <style>
 nav{
-    width: 100vw;
+    width: 100%;
     height: 70px;
     background-color: #212121;
     display: flex;
@@ -34,6 +34,7 @@ ul{
     justify-content: center;
     align-items: center;
     list-style: none;
+    margin-right: 30px;
 }
 li{
     height: max-content;

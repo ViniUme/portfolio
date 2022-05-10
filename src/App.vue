@@ -3,6 +3,7 @@
     <Navbar/>
     <Presentation/>
     <About/>
+    <Info/>
   </div>
 </template>
 
@@ -10,10 +11,11 @@
 import Navbar from './components/Navbar.vue';
 import Presentation from './components/Presentation.vue'
 import About from './components/About.vue'
+import Info from './components/Info.vue'
 
 export default{
     name: "App",
-    components: { Navbar, Presentation, About }
+    components: { Navbar, Presentation, About, Info }
 }
 </script>
 

@@ -33,7 +33,7 @@ export default{
 .front{
     margin-top: 100px;
     margin-bottom: 100px;
-    width: 100vw;
+    width: 100%;
 }
 .text{
     font-size: 27px;
