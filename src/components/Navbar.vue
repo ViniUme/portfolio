@@ -6,14 +6,17 @@
         <li>Projetos</li>
         <li>Serviços</li>
         <li>Minhas Skills</li>
+        <div class="navbar_menu">
+            menu
+        </div>
     </ul>
 </nav>    
 </template>
 
 <script>
-    export default {
-        name: 'Navbar'
-    }
+export default {
+    name: 'Navbar'
+}
 </script>
 
 <style>
@@ -46,5 +49,14 @@ li{
     font-family: 'Poppins', sans-serif;
     font-family: 'Share Tech Mono', monospace;
     margin-left: 30px;
+}
+.navbar_menu{
+    display: none;   
+}
+
+@media(max-width: 800px){
+    .navbar_menu{
+        display: inline;
+    }
 }
 </style>

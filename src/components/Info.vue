@@ -4,7 +4,7 @@
             <a>
                 <img class="info_svg" src="/smile.svg"/>
                 <h1 class="info_type">Nome</h1>
-                <h2 class="info_des">Vinicius Henrique dos Santos</h2>
+                <h2 class="info_des">Vinicius H. dos Santos</h2>
             </a>
 
             <a>
