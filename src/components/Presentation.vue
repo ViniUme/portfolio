@@ -16,7 +16,12 @@
 
 <script>
 export default{
-    name: 'Presentation'
+    name: 'Presentation',
+    data(){
+        return{
+            num: 1
+        }
+    }
 }
 </script>
 
