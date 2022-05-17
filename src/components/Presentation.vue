@@ -10,7 +10,7 @@
                 <button class="btn contato">Entrar em contato</button>
             </div>
         </div>
-        <img class="ilustration" src="/work.svg">
+        <img class="ilustration" src="/svg/work.svg">
     </div>
 </template>
 

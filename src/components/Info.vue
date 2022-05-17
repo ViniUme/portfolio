@@ -2,13 +2,13 @@
     <section class="info">
         <div class="info_grid">
             <a>
-                <img class="info_svg" src="/smile.svg"/>
+                <img class="info_svg" src="/svg/smile.svg"/>
                 <h1 class="info_type">Nome</h1>
                 <h2 class="info_des">Vinicius H. dos Santos</h2>
             </a>
 
             <a>
-                <img class="info_svg" src="/mail.svg"/>
+                <img class="info_svg" src="/svg/mail.svg"/>
                 <h1 class="info_type">E-mail</h1>
                 <h2 class="info_des">viniciusumetsu210@gmail.com</h2>
             </a>
@@ -16,13 +16,13 @@
 
         <div class="info_grid">
             <a>
-                <img class="info_svg" src="/phone.svg"/>
+                <img class="info_svg" src="/svg/phone.svg"/>
                 <h1 class="info_type">Telefone</h1>
                 <h2 class="info_des">(18) 99711-9365</h2>
             </a>
 
             <a>
-                <img class="info_svg" src="/instagram.svg"/>
+                <img class="info_svg" src="/svg/instagram.svg"/>
                 <h1 class="info_type">Instagram</h1>
                 <h2 class="info_des">@viniciusumetsu</h2>
             </a>
