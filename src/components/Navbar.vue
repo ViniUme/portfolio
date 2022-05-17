@@ -7,10 +7,10 @@
         </div>
     </div>
     <ul class="menu_list">
-        <li class="menu_items">Sobre mim</li>
-        <li class="menu_items">Projetos</li>
-        <li class="menu_items">Serviços</li>
-        <li class="menu_items">Minhas Skills</li>
+        <a href="#" class="menu_items">Sobre mim</a>
+        <a href="#" class="menu_items">Projetos</a>
+        <a href="#" class="menu_items">Serviços</a>
+        <a href="#" class="menu_items">Minhas Skills</a>
     </ul>
 </nav>    
 </template>
@@ -39,6 +39,7 @@ export default {
 <style>
 :root{
     --gray: #212121;
+    --black: #121212;
 }
 
 nav{
@@ -69,6 +70,8 @@ nav{
     margin: 0 20px;
     padding: 10px;
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 .portfolio, .menu_items{
     font-family: 'Poppins', sans-serif;
@@ -111,7 +114,10 @@ nav{
         visibility: visible;
     }
     .menu_items{
-        margin: 10px 0;
+        margin: 0;
+        width: 100%;
+        padding: 20px 0;
+        border-bottom: white 1px solid;
     }
     .navbar_div_flex{
         width: 100%;
