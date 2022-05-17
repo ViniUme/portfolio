@@ -1,7 +1,7 @@
 <template>
     <div class="front">
         <div class="text_column">
-            <h1 class="text">Olá, eu sou o</h1><span class="name">Vinicius Henrique<span class="bar_animation">|</span></span>
+            <h1 class="text">Olá, eu sou o</h1><span class="name"> > Vinicius Henrique<span class="bar_animation">|</span></span>
 
             <h2 class="subtitle">Desenvolvedor Front-End & Back-End</h2>
 
@@ -107,6 +107,24 @@ export default{
 @media(max-width: 850px){
     .ilustration{
         display: none;
+    }
+}
+
+@media(max-width: 450px){
+    .text{
+        font-size: 22px;
+    }
+    .name{
+        color: var(--green);
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .bar_animation{
+        font-size: 30px;
+    }
+    .btn{
+        padding: 10px 7px;
+        font-size: 17px;
     }
 }
 </style>
