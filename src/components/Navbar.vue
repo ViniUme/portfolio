@@ -3,14 +3,14 @@
     <div class="navbar_div_flex">
         <h1 class="portfolio">Portfólio</h1>
         <div class="navbar_menu" @click="Change">
-                menu
+            <span class="menu_icon">icon</span>
         </div>
     </div>
     <ul class="menu_list">
-        <li>Sobre mim</li>
-        <li>Projetos</li>
-        <li>Serviços</li>
-        <li>Minhas Skills</li>
+        <li class="menu_items">Sobre mim</li>
+        <li class="menu_items">Projetos</li>
+        <li class="menu_items">Serviços</li>
+        <li class="menu_items">Minhas Skills</li>
     </ul>
 </nav>    
 </template>
@@ -30,7 +30,7 @@ export default {
     },
     data(){
         return{
-            active: "navbar_menu"
+            active: ""
         }
     }
 }
@@ -62,19 +62,21 @@ nav{
     list-style: none;
     margin-right: 30px;
 }
-li{
-    height: max-content;
+.menu_items{
+    width: max-content;
     font-size: 1.2rem;
     letter-spacing: -0.08rem;
     margin: 0 20px;
+    padding: 10px;
+    cursor: pointer;
 }
-.portfolio, li{
+.portfolio, .menu_items{
     font-family: 'Poppins', sans-serif;
     font-family: 'Share Tech Mono', monospace;
     margin-left: 30px;
 }
 .navbar_menu{
-    display: none;   
+    display: none; 
 }
 .navbar_div_flex{
     display: flex;
@@ -82,7 +84,7 @@ li{
     justify-content: space-between;
 }
 
-@media(max-width: 750px){
+@media(max-width: 755px){
     nav{
         flex-direction: column;
         align-content: center;
@@ -90,7 +92,8 @@ li{
         height: max-content;
     }
     .menu_list{
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         height: 0;
         text-align: center;
@@ -104,18 +107,35 @@ li{
         z-index: 2;
     }
     .activate .menu_list{
-        height: 190px;
+        height: max-content;
         visibility: visible;
     }
-    li{
-        margin: 20px 0;
+    .menu_items{
+        margin: 10px 0;
     }
     .navbar_div_flex{
         width: 100%;
     }
     .navbar_menu{
-        display: inline;
+        display: flex;
+        height: min-content;
         margin: 0 30px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .menu_icon{
+        width: 35px;
+        border-top: 3px solid white;
+        user-select: none;
+        font-size: 0px;
+    }
+    .menu_icon::after, .menu_icon::before{
+        content: '';
+        display: block;
+        width: 35px;
+        height: 3px;
+        background: white;
+        margin-top: 7px;
     }
 }
 </style>
