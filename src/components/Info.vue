@@ -57,8 +57,21 @@ export default {
 }
 
 @media(max-width: 950px){
+    .info{
+        width: 80%;
+        justify-content: space-around;
+    }
     .info_grid{
         flex-direction: column;
+    }
+}
+
+@media(max-width: 450px){
+    .info{
+        flex-direction: column;
+    }
+    .info_grid{
+        margin: 0;
     }
 }
 </style>
