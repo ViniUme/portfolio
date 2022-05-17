@@ -13,11 +13,11 @@ import Navbar from './components/Navbar.vue';
 import Presentation from './components/Presentation.vue';
 import About from './components/About.vue';
 import Info from './components/Info.vue';
-import Projects from './components/Projects.vue'
+import Projects from './components/Projects.vue';
 
 export default{
     name: "App",
-    components: { Navbar, Presentation, About, Info }
+    components: { Navbar, Presentation, About, Info, Projects }
 }
 </script>
 
