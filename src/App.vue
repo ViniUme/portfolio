@@ -5,6 +5,7 @@
     <About/>
     <Info/>
     <Projects/>
+    <Skills/>
   </div>
 </template>
 
@@ -14,10 +15,11 @@ import Presentation from './components/Presentation.vue';
 import About from './components/About.vue';
 import Info from './components/Info.vue';
 import Projects from './components/Projects.vue';
+import Skills from './components/Skills.vue'
 
 export default{
     name: "App",
-    components: { Navbar, Presentation, About, Info, Projects }
+    components: { Navbar, Presentation, About, Info, Projects, Skills }
 }
 </script>
 
