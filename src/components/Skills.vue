@@ -1,18 +1,20 @@
 <template>
-    <span class="skill_title">SKILLS</span>
     <section class="skills">
-        <div class="div_skill"><img class="skill_img" :src="items[0]"></div>
-        <div class="div_skill"><img class="skill_img" :src="items[1]"></div>
-        <div class="div_skill"><img class="skill_img" :src="items[2]"></div>
-        <div class="div_skill"><img class="skill_img" :src="items[3]"></div>
-        <div class="div_skill"><img class="skill_img" :src="items[4]"></div>
-        <div class="div_skill"><img class="skill_img" :src="items[5]"></div>
-        <div class="div_skill"><img class="skill_img" :src="items[6]"></div>
-        <div class="div_skill"><img class="skill_img" :src="items[7]"></div>
-        <div class="div_skill"><img class="skill_img" :src="items[8]"></div>
-        <div class="div_skill"><img class="skill_img" :src="items[9]"></div>
-        <div class="div_skill"><img class="skill_img" :src="items[10]"></div>
-        <div class="div_skill"><img class="skill_img" :src="items[11]"></div>
+        <span class="skill_title">SKILLS</span>
+        <div class="skills_div">
+            <div class="div_skill"><img class="skill_img" :src="items[0]"></div>
+            <div class="div_skill"><img class="skill_img" :src="items[1]"></div>
+            <div class="div_skill"><img class="skill_img" :src="items[2]"></div>
+            <div class="div_skill"><img class="skill_img" :src="items[3]"></div>
+            <div class="div_skill"><img class="skill_img" :src="items[4]"></div>
+            <div class="div_skill"><img class="skill_img" :src="items[5]"></div>
+            <div class="div_skill"><img class="skill_img" :src="items[6]"></div>
+            <div class="div_skill"><img class="skill_img" :src="items[7]"></div>
+            <div class="div_skill"><img class="skill_img" :src="items[8]"></div>
+            <div class="div_skill"><img class="skill_img" :src="items[9]"></div>
+            <div class="div_skill"><img class="skill_img" :src="items[10]"></div>
+            <div class="div_skill"><img class="skill_img" :src="items[11]"></div>
+        </div>
     </section>
 </template>
 <script>
@@ -27,12 +29,19 @@ export default {
 </script>
 
 <style>
+.skills{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .skill_title{
     font-size: 28px;
     margin-top: 50px;
     margin-bottom: 10px;
 }
-.skills{
+.skills_div{
     width: 70%;
     height: max-content;
     display: flex;
@@ -58,7 +67,7 @@ export default {
     margin: 5px;
 }
 @media(max-width: 600px){
-    .skills{
+    .skills_div{
         width: 85%;
     }
 }

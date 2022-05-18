@@ -7,10 +7,10 @@
         </div>
     </div>
     <ul class="menu_list">
-        <a href="#" class="menu_items">Sobre mim</a>
-        <a href="#" class="menu_items">Projetos</a>
-        <a href="#" class="menu_items">Serviços</a>
-        <a href="#" class="menu_items">Minhas Skills</a>
+        <a href="#about" class="menu_items">Sobre mim</a>
+        <a href="#info" class="menu_items">Dados</a>
+        <a href="#projects" class="menu_items">Projetos</a>
+        <a href="#skills" class="menu_items">Minhas Skills</a>
     </ul>
 </nav>    
 </template>

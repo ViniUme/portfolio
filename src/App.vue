@@ -2,10 +2,10 @@
   <div class="container">
     <Navbar/>
     <Presentation/>
-    <About/>
-    <Info/>
-    <Projects/>
-    <Skills/>
+    <About id="about"/>
+    <Info id="info"/>
+    <Projects id="projects"/>
+    <Skills id="skills"/>
   </div>
 </template>
 
@@ -31,11 +31,12 @@ export default{
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body, html{
     color: white;
     background-color: #121212;
     font-family: 'Poppins', sans-serif;
     font-family: 'Share Tech Mono', monospace;
+    scroll-behavior: smooth;
 }
 .container{
   display: flex;
