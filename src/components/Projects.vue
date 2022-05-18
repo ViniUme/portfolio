@@ -1,24 +1,24 @@
 <template>
     <section class="projects">
         <a href="https://github.com/ViniUme/Movies-Website" class="project_div">
-            <img style="margin-top: 10px" width="280" src="/img/movie.png" alt="image">
+            <img style="margin-top: 10px" width="280" src="https://github.com/ViniUme/assets/blob/master/movie.png?raw=true" alt="image">
             <span class="project_title">Movies Website</span>
             <span class="project_tec">Tecnologias: HTML, CSS, SASS, React.js, Next.js e Vercel</span>
         </a>
         <a href="https://github.com/ViniUme/database-login" class="project_div">
-            <img style="margin-top: 10px" width="280" src="/img/login.png" alt="image">
+            <img style="margin-top: 10px" width="280" src="https://github.com/ViniUme/assets/blob/master/login.png?raw=true" alt="image">
             <span class="project_title">Database Login</span>
             <span class="project_tec">Tecnologias: HTML, CSS, SASS, React.js, Next.js, MongoDB e Vercel</span>
         </a>
         <a href="https://github.com/ViniUme/React-Calculator" class="project_div">
-            <img style="margin-top: 10px" width="280" src="/img/calc.png" alt="image">
+            <img style="margin-top: 10px" width="280" src="https://github.com/ViniUme/assets/blob/master/calculadora.PNG?raw=true" alt="image">
             <span class="project_title">React Calculator</span>
             <span class="project_tec">Tecnologias: HTML, CSS, React.js e Github Pages</span>
         </a>
         <a href="#" class="project_div">
-            <img style="margin-top: 10px" width="280" src="/img/movie.png" alt="image">
-            <span class="project_title">Movies Website</span>
-            <span class="project_tec">Tecnologias: HTML, CSS, SASS, Next.js e Vercel</span>
+            <img style="margin-top: 10px" width="280" src="https://github.com/ViniUme/assets/blob/master/portf%C3%B3lio.PNG?raw=true" alt="image">
+            <span class="project_title">Portfólio</span>
+            <span class="project_tec">Tecnologias: HTML, CSS, Vue.js e Github Pages</span>
         </a>
     </section>
 </template>
