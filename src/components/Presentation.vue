@@ -10,7 +10,7 @@
                 <button class="btn contato">Entrar em contato</button>
             </div>
         </div>
-        <img class="ilustration" src="/svg/work.svg">
+        <img class="ilustration" src="/img/foto.jpeg">
     </div>
 </template>
 
@@ -37,7 +37,6 @@ export default{
 }
 .front{
     margin-top: 100px;
-    margin-bottom: 100px;
     width: 100%;
 }
 .text{
@@ -63,7 +62,11 @@ export default{
     margin: 5px 0;
 }
 .ilustration{
-    width: 400px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border: var(--green) 3px solid;
+    border-radius: 100%;
 }
 .div_buttons{
     margin-top: 10px;
