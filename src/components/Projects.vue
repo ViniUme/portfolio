@@ -50,6 +50,10 @@ export default {
     text-align: center;
     text-decoration: none;
     background-color: var(--gray);
+    transition: 150ms ease-in-out;
+}
+.project_div:hover{
+    transform: scale(1.1);
 }
 .project_title{
     color: var(--green);
