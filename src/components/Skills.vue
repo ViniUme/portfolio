@@ -35,6 +35,7 @@ export default {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
 }
 .skill_title{
     font-size: 28px;
@@ -59,6 +60,11 @@ export default {
     background: #ffffff;
     border-radius: 30px;
     margin: 20px;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+}
+.div_skill:hover{
+    transform: scale(1.1);
 }
 .skill_img{
     width: 90px;
