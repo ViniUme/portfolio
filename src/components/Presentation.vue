@@ -7,7 +7,7 @@
 
             <div class="div_buttons">
                 <button class="btn curriculo">Download CV</button>
-                <button class="btn contato">Entrar em contato</button>
+                <a href="https://github.com/ViniUme" target="_blank" class="btn contato">Entrar em contato</a>
             </div>
         </div>
         <img class="ilustration" src="/img/foto.jpeg">
@@ -75,6 +75,7 @@ export default{
 .btn{
     width: max-content;
     padding: 10px 15px;
+    text-decoration: none;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-family: 'Share Tech Mono', monospace;
