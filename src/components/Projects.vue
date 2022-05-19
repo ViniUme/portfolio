@@ -33,7 +33,7 @@ export default {
 <style>
 :root{
     --gray: #212121;
-    --green: #00CA38;
+    --green: #00fa47;
 }
 
 .projects_title{

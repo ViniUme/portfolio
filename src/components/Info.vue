@@ -47,7 +47,7 @@ export default {
 }
 .info_type{
     font-size: 22px;
-    color: #00CA38;
+    color: #00fa47;
     font-weight: normal;
 }
 .info_des{

@@ -27,7 +27,7 @@ export default{
 
 <style>
 :root{
-    --green: #00CA38;
+    --green: #00fa47;
 }
 
 .front, .text_column, .div_buttons{
@@ -89,6 +89,7 @@ export default{
 }
 .curriculo:hover{
     color: white;
+    background-color: #00b634;
 }
 .contato{
     color: white;
