@@ -6,7 +6,7 @@
             <h2 class="subtitle">Desenvolvedor Front-End & Back-End</h2>
 
             <div class="div_buttons">
-                <button class="btn curriculo">Download CV</button>
+                <a href="/curriculo.pdf" class="btn curriculo" target="_black">Curriculo</a>
                 <a href="https://github.com/ViniUme" target="_blank" class="btn contato">Entrar em contato</a>
             </div>
         </div>
@@ -83,6 +83,7 @@ export default{
     cursor: pointer;
 }
 .curriculo{
+    color: black;
     background-color: var(--green);
     transition: 300ms ease-in-out;
 }
