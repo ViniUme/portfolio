@@ -1,7 +1,7 @@
 <template>
     <div class="front">
         <div class="text_column">
-            <h1 class="text">Olá, eu sou o</h1><span class="name"> > Vinicius Henrique<span class="bar_animation">|</span></span>
+            <h1 class="text">Olá, eu sou o</h1><span class="name">Vinicius Henrique</span>
 
             <h2 class="subtitle">Desenvolvedor Front-End & Back-End</h2>
 
@@ -10,7 +10,7 @@
                 <a href="https://github.com/ViniUme" target="_blank" class="btn contato">Entrar em contato</a>
             </div>
         </div>
-        <img class="ilustration" src="/img/foto.jpeg">
+        <img class="self" src="/img/foto.jpeg">
     </div>
 </template>
 
@@ -46,14 +46,13 @@ export default{
     color: var(--green);
     font-size: 32px;
     font-weight: bold;
+    animation: console 0.6s infinite steps(2, jump-none), typing 3s steps(18, jump-none) 1s normal both;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .text_column{
     flex-direction: column;
     align-items: flex-start;
-}
-.bar_animation{
-    animation: console 1s infinite steps(2, jump-none);
-    font-size: 35px;
 }
 .subtitle{
     color: gray;
@@ -61,12 +60,13 @@ export default{
     font-weight: normal;
     margin: 5px 0;
 }
-.ilustration{
+.self{
     width: 350px;
     height: 350px;
     object-fit: cover;
     border: var(--green) 3px solid;
     border-radius: 100%;
+    animation: opacity 0.8s normal;
 }
 .div_buttons{
     margin-top: 10px;
@@ -101,15 +101,33 @@ export default{
 
 @keyframes console{
     from{
-        filter: opacity(0%);
+        border-right: var(--green) 4px solid;
     }
     to{
-        filter: opacity(100000%);
+        border-right: transparent 4px solid;
+    }
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 298px;
+    }
+}
+@keyframes opacity{
+    from{
+        transform: scale(0.8);
+        filter: opacity(0);
+    }
+    to{
+        transform: scale(1);
+        filter: opacity(1);
     }
 }
 
 @media(max-width: 850px){
-    .ilustration{
+    .self{
         display: none;
     }
 }
@@ -123,12 +141,18 @@ export default{
         font-size: 26px;
         font-weight: bold;
     }
-    .bar_animation{
-        font-size: 30px;
-    }
     .btn{
         padding: 10px 7px;
         font-size: 17px;
     }
+
+    @keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 243px;
+    }
+}
 }
 </style>
