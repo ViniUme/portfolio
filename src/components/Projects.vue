@@ -1,5 +1,6 @@
 <template>
     <section class="projects">
+        <span class="projects_title">Projetos</span>
         <a href="https://github.com/ViniUme/Movies-Website" class="project_div">
             <img style="margin-top: 10px" width="280" src="https://github.com/ViniUme/assets/blob/master/movie.png?raw=true" alt="image">
             <span class="project_title">Movies Website</span>
@@ -35,6 +36,11 @@ export default {
     --green: #00CA38;
 }
 
+.projects_title{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
 .projects{
     width: 70%;
     display: flex;
