@@ -29,6 +29,7 @@ export default {
 .about_title{
     font-size: 25px;
     color: #00CA38;
+    margin-top: 100px;
 }
 .about_text{
     font-weight: normal;
