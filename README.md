@@ -4,7 +4,9 @@
 </div>
 
 ## Translation
-- []()
+- [Protuguês Brasileiro](https://github.com/ViniUme/Portfolio/blob/master/translation/README-ptbr.md)
+
+<br>
 
 ### About
 This is my portfolio where others people can view my contacts, projects and skills. I made this project to learn Vue.js and to have more one method of contact.
@@ -45,9 +47,6 @@ Have Node.js installed. With terminal opened in project folder, install the depe
         or
     yarn
     
-The project needs enviroments variables, you can create in root, the file .env.local and use the env's name in .env.example. Use this env to put the link of database.
-
-<br>
 Then type this command in to run local server:
 
     npm run dev
