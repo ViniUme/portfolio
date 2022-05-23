@@ -1,29 +1,57 @@
-# portfolio
+<div align="center">
+  <h1>Portfolio</h1>
+  <img src="https://github.com/ViniUme/assets/blob/master/portf%C3%B3lio.PNG">
+</div>
 
-This template should help get you started developing with Vue 3 in Vite.
+## Translation
+- []()
 
-## Recommended IDE Setup
+### About
+This is my portfolio where others people can view my contacts, projects and skills. I made this project to learn Vue.js and to have more one method of contact.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+<br>
 
-## Customize configuration
+### Technologies Used
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+<table>
+  <tr>
+    <td>Front-End</td>
+    <td>Back-End</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"></td>
+    <td><img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D"></td>
+    <td></td>
+  </tr>
+</table>
 
-## Project Setup
+<br>
 
-```sh
-npm install
-```
+### How to run
+Clone this repository:
 
-### Compile and Hot-Reload for Development
+    git clone https://github.com/ViniUme/Movies-Website.git
+    
+Have Node.js installed. With terminal opened in project folder, install the dependencies :
 
-```sh
-npm run dev
-```
+    npm install
+        or
+    yarn
+    
+The project needs enviroments variables, you can create in root, the file .env.local and use the env's name in .env.example. Use this env to put the link of database.
 
-### Compile and Minify for Production
+<br>
+Then type this command in to run local server:
 
-```sh
-npm run build
-```
+    npm run dev
+       or
+    yarn dev
+
+Then in your navigator the localhost in port 3000
