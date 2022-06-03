@@ -7,7 +7,7 @@
 
             <div class="div_buttons">
                 <a href="/curriculo.pdf" class="btn curriculo" target="_black">Curriculo</a>
-                <a href="https://github.com/ViniUme" target="_blank" class="btn contato">Entrar em contato</a>
+                <a href="https://github.com/ViniUme" target="_blank" class="btn contato">Github</a>
             </div>
         </div>
         <img class="self" src="/img/foto.jpeg">
@@ -98,7 +98,7 @@ export default{
     transition: 300ms ease-in-out;
 }
 .contato:hover{
-    border: 2px solid gray;
+    border: 2px solid rgb(187, 187, 187);
 }
 
 @keyframes console{
