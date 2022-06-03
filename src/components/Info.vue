@@ -1,5 +1,5 @@
 <template>
-    <h1 class="contacts_header">Contatos</h1>
+    <span class="contacts_header">Contatos</span>
     <section class="info">
         <a class="contact_link" href="mailto:viniciusumetsu210@gmail.com">
             <img class="svg_contact" src="/svg/email.svg" />
@@ -34,6 +34,8 @@ export default {
 .contacts_header{
     margin-top: 50px;
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
 }
 
 .info{
