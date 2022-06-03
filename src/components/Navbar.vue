@@ -1,17 +1,14 @@
 <template>
 <nav v-bind:class="active">
-    <div class="navbar_div_flex">
-        <h1 class="portfolio">Portfólio</h1>
-        <div class="navbar_menu" @click="Change">
-            <span class="menu_icon">icon</span>
-        </div>
-    </div>
     <ul class="menu_list">
         <a href="#about" class="menu_items">Sobre mim</a>
-        <a href="#info" class="menu_items">Dados</a>
+        <a href="#cotacts" class="menu_items">Contatos</a>
         <a href="#projects" class="menu_items">Projetos</a>
         <a href="#skills" class="menu_items">Minhas Skills</a>
     </ul>
+    <div class="navbar_menu" @click="Change">
+        <span class="menu_icon">icon</span>
+    </div>
 </nav>    
 </template>
 
@@ -57,6 +54,7 @@ nav{
 }
 .menu_list{
     height: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,17 +79,11 @@ nav{
 .navbar_menu{
     display: none; 
 }
-.navbar_div_flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 @media(max-width: 755px){
     nav{
         flex-direction: column;
-        align-content: center;
-        justify-content: start;
+        align-items: flex-end;
         height: max-content;
     }
     .menu_list{
@@ -110,7 +102,7 @@ nav{
         z-index: 2;
     }
     .activate .menu_list{
-        height: max-content;
+        height: 252px;
         visibility: visible;
     }
     .menu_items{
@@ -125,7 +117,7 @@ nav{
     .navbar_menu{
         display: flex;
         height: min-content;
-        margin: 0 30px;
+        margin: 10px 30px;
         padding: 10px;
         cursor: pointer;
     }
