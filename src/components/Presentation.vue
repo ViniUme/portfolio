@@ -37,7 +37,7 @@ export default{
 }
 .front{
     margin-top: 100px;
-    width: 100%;
+    width: 70vw;
 }
 .text{
     font-size: 27px;
@@ -128,13 +128,21 @@ export default{
     }
 }
 
-@media(max-width: 850px){
+@media(max-width: 1100px){
+    .front{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+}
+
+@media(max-width: 750px){
     .self{
         display: none;
     }
 }
 
 @media(max-width: 450px){
+    
     .text{
         font-size: 22px;
     }
