@@ -42,7 +42,7 @@ export default {
     font-size: 28px;
 }
 .projects{
-    width: 70%;
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
