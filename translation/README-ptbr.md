@@ -3,17 +3,17 @@
   <img src="https://github.com/ViniUme/assets/blob/master/portf%C3%B3lio.PNG">
 </div>
 
-## Translation
-- [Protuguês Brasileiro](https://github.com/ViniUme/Portfolio/blob/master/translation/README-ptbr.md)
+## Traduções
+- [English](https://github.com/ViniUme/Portfolio/)
 
 <br>
 
-### About
-This is my portfolio where others people can view my contacts, projects and skills. I made this project to learn Vue.js and to have more one method of contact.
+### Sobre
+Esse é meu portfólio onde outras pessoas podem ver meus contatos, projetos e habilidades. Eu fiz esse projeto para aprender Vue.js e para ter mais um método de contato.
 
 <br>
 
-### Technologies Used
+### Tecnologias usadas
 
 <table>
   <tr>
@@ -36,21 +36,21 @@ This is my portfolio where others people can view my contacts, projects and skil
 
 <br>
 
-### How to run
-Clone this repository:
+### Começando
+Clone esse repositório:
 
     git clone https://github.com/ViniUme/Movies-Website.git
     
-Have Node.js installed. With terminal opened in project folder, install the dependencies :
+Tenha Node.js instalado. Com o terminal aberto na pasta do projeto, instale as dependencias:
 
     npm install
         or
     yarn
-    
-Then type this command in to run local server:
+
+Então digite este comando no terminal para iniciar um servidor local:
 
     npm run dev
        or
     yarn dev
 
-Then in your navigator the localhost in port 3000
+Então abra o localhost na porta 3000 no seu navegador
