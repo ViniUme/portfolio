@@ -1,32 +1,26 @@
 <template>
+    <h1 class="contacts_header">Contatos</h1>
     <section class="info">
-        <div class="info_grid">
-            <a>
-                <img class="info_svg" src="/svg/smile.svg"/>
-                <h1 class="info_type">Nome</h1>
-                <h2 class="info_des">Vinicius H. dos Santos</h2>
-            </a>
-
-            <a>
-                <img class="info_svg" src="/svg/mail.svg"/>
-                <h1 class="info_type">E-mail</h1>
-                <h2 class="info_des">viniciusumetsu210@gmail.com</h2>
-            </a>
-        </div>
-
-        <div class="info_grid">
-            <a>
-                <img class="info_svg" src="/svg/phone.svg"/>
-                <h1 class="info_type">Telefone</h1>
-                <h2 class="info_des">(18) 99711-9365</h2>
-            </a>
-
-            <a>
-                <img class="info_svg" src="/svg/instagram.svg"/>
-                <h1 class="info_type">Instagram</h1>
-                <h2 class="info_des">@viniciusumetsu</h2>
-            </a>
-        </div>
+        <a class="contact_link" href="mailto:viniciusumetsu210@gmail.com">
+            <img class="svg_contact" src="/svg/email.svg" />
+            <span class="svg_text">E-mail</span>
+        </a>
+        <a class="contact_link" href="http://api.whatsapp.com/send?phone=5518997119365">
+            <img class="svg_contact" src="/svg/whatsapp.svg" />
+            <span class="svg_text">Whatsapp</span>
+        </a>
+        <a class="contact_link" href="https://www.linkedin.com/in/viniume/">
+            <img class="svg_contact" src="/svg/linkedin.svg" />
+            <span class="svg_text">Linkedin</span>
+        </a>
+        <a class="contact_link" href="https://www.instagram.com/viniciusumetsu/">
+            <img class="svg_contact" src="/svg/instagram.svg" />
+            <span class="svg_text">Instagram</span>
+        </a>
+        <a class="contact_link" href="https://t.me/ViniUme">
+            <img class="svg_contact" src="/svg/telegram.svg" />
+            <span class="svg_text">Telegram</span>
+        </a>
     </section>
 </template>
 
@@ -37,41 +31,38 @@ export default {
 </script>
 
 <style>
-.info, .info_grid{
+.contacts_header{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.info{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
     text-align: center;
-    gap: 50px;
-    margin: 50px 0;
-}
-.info_type{
-    font-size: 22px;
-    color: #00fa47;
-    font-weight: normal;
-}
-.info_des{
-    font-size: 16px;
-    color: #a3a3a3;
-    font-weight: normal;
+    gap: 20px;
+    margin-bottom: 50px;
 }
 
-@media(max-width: 950px){
-    .info{
-        width: 80%;
-        justify-content: space-around;
-    }
-    .info_grid{
-        flex-direction: column;
-    }
+.contact_link{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
 }
 
-@media(max-width: 450px){
-    .info{
-        flex-direction: column;
-    }
-    .info_grid{
-        margin: 0;
-    }
+.svg_contact{
+    width: 50px;
+    height: 50px;
+    transition: 150ms ease-in-out;
+}
+.contact_link:hover .svg_contact{
+    transform: scale(1.2);
 }
 </style>

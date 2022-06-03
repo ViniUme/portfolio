@@ -2,7 +2,7 @@
 <nav v-bind:class="active">
     <ul class="menu_list">
         <a href="#about" class="menu_items">Sobre mim</a>
-        <a href="#cotacts" class="menu_items">Contatos</a>
+        <a href="#contacts" class="menu_items">Contatos</a>
         <a href="#projects" class="menu_items">Projetos</a>
         <a href="#skills" class="menu_items">Minhas Skills</a>
     </ul>
