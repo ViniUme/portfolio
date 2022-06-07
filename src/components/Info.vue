@@ -1,23 +1,23 @@
 <template>
     <span class="contacts_header">Contatos</span>
     <section class="info">
-        <a class="contact_link" href="mailto:viniciusumetsu210@gmail.com">
+        <a class="contact_link" href="mailto:viniciusumetsu210@gmail.com" target="_blank">
             <img class="svg_contact" src="/svg/email.svg" />
             <span class="svg_text">E-mail</span>
         </a>
-        <a class="contact_link" href="http://api.whatsapp.com/send?phone=5518997119365">
+        <a class="contact_link" href="http://api.whatsapp.com/send?phone=5518997119365" target="_blank">
             <img class="svg_contact" src="/svg/whatsapp.svg" />
             <span class="svg_text">Whatsapp</span>
         </a>
-        <a class="contact_link" href="https://www.linkedin.com/in/viniume/">
+        <a class="contact_link" href="https://www.linkedin.com/in/viniume/" target="_blank">
             <img class="svg_contact" src="/svg/linkedin.svg" />
             <span class="svg_text">Linkedin</span>
         </a>
-        <a class="contact_link" href="https://www.instagram.com/viniciusumetsu/">
+        <a class="contact_link" href="https://www.instagram.com/viniciusumetsu/" target="_blank">
             <img class="svg_contact" src="/svg/instagram.svg" />
             <span class="svg_text">Instagram</span>
         </a>
-        <a class="contact_link" href="https://t.me/ViniUme">
+        <a class="contact_link" href="https://t.me/ViniUme" target="_blank">
             <img class="svg_contact" src="/svg/telegram.svg" />
             <span class="svg_text">Telegram</span>
         </a>
