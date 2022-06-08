@@ -44,9 +44,10 @@ export default{
 }
 .name{
     color: var(--green);
+    border-right: var(--green) 4px solid;
     font-size: 32px;
     font-weight: bold;
-    animation: console 0.6s infinite steps(2, jump-none), typing 3s steps(18, jump-none) 1s normal both;
+    animation: console 0.6s 4s infinite steps(2, jump-none), typing 3s steps(18, jump-none) 0.5s normal both;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -98,7 +99,7 @@ export default{
     transition: 300ms ease-in-out;
 }
 .contato:hover{
-    border: 2px solid rgb(187, 187, 187);
+    border: 2px solid #bbbbbb;
 }
 
 @keyframes console{
