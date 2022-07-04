@@ -1,5 +1,5 @@
 <template>
-    <span class="contacts_header">Contatos</span>
+    <span id="info" class="contacts_header">Contatos</span>
     <section class="info">
         <a class="contact_link" href="mailto:viniciusumetsu210@gmail.com" target="_blank">
             <img class="svg_contact" src="/svg/email.svg" />
