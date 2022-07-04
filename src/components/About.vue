@@ -40,7 +40,7 @@ export default {
 .about{
     text-align: center;
     width: 60%;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 @media(max-width: 800px){

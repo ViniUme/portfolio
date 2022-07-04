@@ -32,7 +32,7 @@ export default {
 
 <style>
 .contacts_header{
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 20px;
     text-align: center;
     font-size: 28px;
