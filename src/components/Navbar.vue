@@ -70,6 +70,10 @@ nav{
     cursor: pointer;
     color: white;
     text-decoration: none;
+    transition: 300ms ease-out;
+}
+.menu_items:hover{
+    color: #00fa47;
 }
 .portfolio, .menu_items{
     font-family: 'Poppins', sans-serif;
