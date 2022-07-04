@@ -6,7 +6,7 @@
             <h2 class="subtitle">Desenvolvedor Front-End & Back-End</h2>
 
             <div class="div_buttons">
-                <a href="/curriculo.pdf" class="btn curriculo" target="_black">Curriculo</a>
+                <a href="https://www.linkedin.com/in/viniume/" class="btn curriculo" target="_black">Linkedin</a>
                 <a href="https://github.com/ViniUme" target="_blank" class="btn contato">Github</a>
             </div>
         </div>
