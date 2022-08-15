@@ -1,22 +1,22 @@
 <template>
     <section class="projects">
         <span class="projects_title">Projetos</span>
-        <a href="https://github.com/ViniUme/Movies-Website" class="project_div" target="_blank">
+        <a href="https://movies-website-eight.vercel.app/" class="project_div" target="_blank">
             <img style="margin-top: 10px" width="280" src="https://github.com/ViniUme/assets/blob/master/movie.png?raw=true" alt="image">
             <span class="project_title">Movies Website</span>
             <span class="project_tec">Tecnologias: HTML, CSS, SASS, React.js, Next.js e Vercel</span>
         </a>
-        <a href="https://github.com/ViniUme/database-login" class="project_div" target="_blank">
+        <a href="http://database-login.vercel.app/" class="project_div" target="_blank">
             <img style="margin-top: 10px" width="280" src="https://github.com/ViniUme/assets/blob/master/login.png?raw=true" alt="image">
             <span class="project_title">Database Login</span>
             <span class="project_tec">Tecnologias: HTML, CSS, SASS, React.js, Next.js, MongoDB e Vercel</span>
         </a>
-        <a href="https://github.com/ViniUme/React-Calculator" class="project_div" target="_blank">
+        <a href="https://viniume.github.io/React-Calculator/" class="project_div" target="_blank">
             <img style="margin-top: 10px" width="280" src="https://github.com/ViniUme/assets/blob/master/calculadora.PNG?raw=true" alt="image">
             <span class="project_title">React Calculator</span>
             <span class="project_tec">Tecnologias: HTML, CSS, React.js e Github Pages</span>
         </a>
-        <a href="https://github.com/ViniUme/next-pokedex" class="project_div" target="_blank">
+        <a href="http://next-pokedex-one.vercel.app/" class="project_div" target="_blank">
             <img style="margin-top: 10px" width="280" src="https://github.com/ViniUme/assets/blob/master/pokedex.PNG?raw=true" alt="image">
             <span class="project_title">Next Pokedex</span>
             <span class="project_tec">Tecnologias: HTML, SCSS, React.js, Next.js e Vercel</span>
