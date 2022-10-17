@@ -14,12 +14,12 @@
 
 <br>
 
-### Sobre
+## Sobre
 Esse é meu portfólio onde outras pessoas podem ver meus contatos, projetos e habilidades. Eu fiz esse projeto para aprender Vue.js e para ter mais um método de contato.
 
 <br>
 
-### Tecnologias usadas
+## Tecnologias usadas
 
 <table>
   <tr>
@@ -32,17 +32,15 @@ Esse é meu portfólio onde outras pessoas podem ver meus contatos, projetos e h
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"></td>
-    <td></td>
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D"></td>
-    <td></td>
   </tr>
 </table>
 
 <br>
 
-### Começando
+## Começando
 Clone esse repositório:
 
     git clone https://github.com/ViniUme/Movies-Website.git
