@@ -1,6 +1,11 @@
 <template>
     <section class="projects">
         <span class="projects_title">Projetos</span>
+        <a href="https://limitsgym.vercel.app/" class="project_div" target="_blank">
+            <img style="margin-top: 10px" width="280" src="https://github.com/ViniUme/assets/blob/master/academia_tcc.png?raw=true" alt="image">
+            <span class="project_title">Limits Gym</span>
+            <span class="project_tec">Tecnologias: HTML, CSS, SASS, React.js, Next.js, MongoDB, Mui-Material, Eslint e Vercel</span>
+        </a>
         <a href="https://movies-website-eight.vercel.app/" class="project_div" target="_blank">
             <img style="margin-top: 10px" width="280" src="https://github.com/ViniUme/assets/blob/master/movie.png?raw=true" alt="image">
             <span class="project_title">Movies Website</span>
