@@ -1,6 +1,12 @@
 <div align="center">
   <h1>Portfolio</h1>
-  <img src="https://github.com/ViniUme/assets/blob/master/portf%C3%B3lio.PNG">
+
+  <img alt="GitHub" src="https://img.shields.io/github/license/ViniUme/Portfolio?color=00ce3a&style=for-the-badge">
+  <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/ViniUme/Portfolio?color=212121&style=for-the-badge">
+
+  <br>
+
+  <img src="https://github.com/ViniUme/assets/blob/master/portf%C3%B3lio.PNG?raw=true">
 </div>
 
 ## Translation
@@ -8,12 +14,12 @@
 
 <br>
 
-### About
+## About
 This is my portfolio where others people can view my contacts, projects and skills. I made this project to learn Vue.js and to have more one method of contact.
 
 <br>
 
-### Technologies Used
+## Technologies Used
 
 <table>
   <tr>
@@ -36,7 +42,7 @@ This is my portfolio where others people can view my contacts, projects and skil
 
 <br>
 
-### How to run
+## How to run
 Clone this repository:
 
     git clone https://github.com/ViniUme/Movies-Website.git

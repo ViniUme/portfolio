@@ -1,6 +1,12 @@
 <div align="center">
   <h1>Portfolio</h1>
-  <img src="https://github.com/ViniUme/assets/blob/master/portf%C3%B3lio.PNG">
+
+  <img alt="GitHub" src="https://img.shields.io/github/license/ViniUme/Portfolio?color=00ce3a&label=licen%C3%A7a&style=for-the-badge">
+  <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/ViniUme/Portfolio?color=212121&label=versão&style=for-the-badge">
+
+  <br>
+
+  <img src="https://github.com/ViniUme/assets/blob/master/portf%C3%B3lio.PNG?raw=true">
 </div>
 
 ## Traduções
