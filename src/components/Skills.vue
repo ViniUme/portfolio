@@ -59,7 +59,7 @@ export default {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 150px 0;
+    padding: 150px 0;
 }
 .skill_title{
     font-size: 28px;

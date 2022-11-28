@@ -9,7 +9,7 @@
             <img class="svg_contact" src="/svg/whatsapp.svg" />
             <span class="svg_text">Whatsapp</span>
         </a>
-        <a class="contact_link" href="https://www.linkedin.com/in/viniume/" target="_blank">
+        <a class="contact_link" href="https://www.linkedin.com/in/viniciushenriquesantos/" target="_blank">
             <img class="svg_contact" src="/svg/linkedin.svg" />
             <span class="svg_text">Linkedin</span>
         </a>
@@ -32,8 +32,8 @@ export default {
 
 <style>
 .contacts_header{
-    margin-top: 150px;
     margin-bottom: 20px;
+    padding-top: 150px;
     text-align: center;
     font-size: 28px;
 }

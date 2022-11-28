@@ -52,7 +52,7 @@ export default {
     font-size: 28px;
 }
 .projects{
-    margin-top: 100px;
+    padding-top: 100px;
     width: 80vw;
     display: flex;
     flex-wrap: wrap;
