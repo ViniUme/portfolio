@@ -38,6 +38,18 @@ body, html{
     font-family: 'Share Tech Mono', monospace;
     scroll-behavior: smooth;
 }
+body::-webkit-scrollbar{
+    width: 7px;
+  }
+  
+  body::-webkit-scrollbar-track{
+    background: #212121;
+  }
+  
+  body::-webkit-scrollbar-thumb{
+    background-color: #00fa47;
+    border-radius: 20px;
+  }
 .container{
   display: flex;
   align-items: center;
