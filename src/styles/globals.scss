@@ -3,6 +3,7 @@
 :root{
     --gray: #212121;
     --black: #121212;
+    --green: #00fa47;
 }
 
 * {
@@ -18,7 +19,7 @@ html,body {
 
 body {
     color: white;
-    background-color: #121212;
+    background-color: var(--black);
     font-family: 'Poppins', sans-serif;
     font-family: 'Share Tech Mono', monospace;
     scroll-behavior: smooth;
@@ -29,18 +30,12 @@ body::-webkit-scrollbar{
 }
   
 body::-webkit-scrollbar-track{
-    background: #212121;
+    background: var(--gray);
 }
   
 body::-webkit-scrollbar-thumb{
-    background-color: #00fa47;
+    background-color: var(--green);
     border-radius: 20px;
-}
-
-.container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 a {
