@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Navbar from '../components/navbar';
 
 export default function Index() {
   return (
@@ -10,6 +11,7 @@ export default function Index() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <main>
+            <Navbar/>
         </main>
     </>
   )
