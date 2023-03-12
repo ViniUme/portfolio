@@ -39,6 +39,7 @@
 }
 @media(max-width: 755px){
     .nav{
+        min-height: 70px;
         flex-direction: column;
         align-items: flex-end;
         height: max-content;
