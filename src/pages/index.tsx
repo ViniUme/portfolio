@@ -7,7 +7,7 @@ export default function Index(){
   return (
     <>
         <Head>
-            <title>Vinícius Henrique dos Santos - My professional portfolio</title>
+            <title>Vinicius Henrique dos Santos - My professional portfolio</title>
             <meta name="description" content="" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />
@@ -17,11 +17,11 @@ export default function Index(){
             <div className={styles.front}>
                 <div className={styles.text_column}>
                     <h1 className={styles.text}>
-                        <span>Olá, eu sou o</span><br/>
+                        <span>Hello there, I'm</span><br/>
                         <span className={styles.name}>Vinicius Henrique</span>
                     </h1>
 
-                    <h2 className={styles.subtitle}>Desenvolvedor Front-End & Back-End</h2>
+                    <h2 className={styles.subtitle}>Full-Stack Developer</h2>
 
                     <div className={styles.div_buttons}>
                         <a href="https://www.linkedin.com/in/viniciushenriquesantos/" className={`${styles.btn} ${styles.linkedin}`} target="_black">Linkedin</a>
