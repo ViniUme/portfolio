@@ -30,8 +30,25 @@
                     white-space: nowrap;
                     overflow: hidden;
                 }
+
+                @keyframes console{
+                    from{
+                        border-right: var(--green) 4px solid;
+                    }
+                    to{
+                        border-right: transparent 4px solid;
+                    }
+                }
+                
+                @keyframes typing{
+                    from{
+                        width: 0;
+                    }
+                    to{
+                        width: 298px;
+                    }
+                }
             }
-        
 
             .subtitle{
                 color: #b1b1b1;
@@ -88,70 +105,72 @@
             border-radius: 100%;
             animation: opacity 0.8s normal;
         }
-    }
-}
-@keyframes console{
-    from{
-        border-right: var(--green) 4px solid;
-    }
-    to{
-        border-right: transparent 4px solid;
-    }
-}
-
-@keyframes typing{
-    from{
-        width: 0;
-    }
-    to{
-        width: 298px;
-    }
-}
-
-@keyframes opacity{
-    from{
-        transform: scale(0.8);
-        filter: opacity(0);
-    }
-    to{
-        transform: scale(1);
-        filter: opacity(1);
-    }
-}
-
-@media(max-width: 1100px){
-    .front{
-        flex-direction: column-reverse;
-        gap: 50px;
-    }
-}
-
-@media(max-width: 750px){
-    .self{
-        display: none;
-    }
-}
-
-@media(max-width: 450px){
-    
-    .text{
-        font-size: 22px;
-    }
-    .name{
-        color: var(--green);
-        font-size: 26px;
-        font-weight: bold;
-    }
-    .btn{
-        padding: 10px 7px;
-        font-size: 17px;
-    }
-    @keyframes typing{
-        from{
-            width: 0;
+        @keyframes opacity{
+            from{
+                transform: scale(0.8);
+                filter: opacity(0);
+            }
+            to{
+                transform: scale(1);
+                filter: opacity(1);
+            }
         }
-        to{
-            width: 243px;
+        @media(max-width: 750px){
+            .self{
+                display: none;
+            }
+        }
+    }
+    @media(max-width: 1100px){
+        .front{
+            flex-direction: column-reverse;
+            gap: 50px;
+        }
+    }
+    @media(max-width: 450px){
+    
+        .text{
+            font-size: 22px;
+        }
+        .name{
+            color: var(--green);
+            font-size: 26px;
+            font-weight: bold;
+        }
+        .btn{
+            padding: 10px 7px;
+            font-size: 17px;
+        }
+        @keyframes typing{
+            from{
+                width: 0;
+            }
+            to{
+                width: 243px;
+            }
+        }
+    }
+
+    .about{
+        text-align: center;
+        width: 60%;
+        padding-top: 100px;
+
+        .about_title{
+            color: #00fa47;
+            font-size: 28px;
+        }
+        .about_text{
+            font-weight: normal;
+            font-size: 17px;
+            margin-top: 10px;
+            text-align: justify;
+            line-height: 30px
+        }
+    }
+    @media(max-width: 800px){
+        .about{
+            width: 80%;
         }
     }
 }
