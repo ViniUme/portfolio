@@ -16,7 +16,10 @@ export default function Index(){
             <Navbar/>
             <div className={styles.front}>
                 <div className={styles.text_column}>
-                    <h1 className={styles.text}>Olá, eu sou o</h1><span className={styles.name}>Vinicius Henrique</span>
+                    <h1 className={styles.text}>
+                        <span>Olá, eu sou o</span><br/>
+                        <span className={styles.name}>Vinicius Henrique</span>
+                    </h1>
 
                     <h2 className={styles.subtitle}>Desenvolvedor Front-End & Back-End</h2>
 

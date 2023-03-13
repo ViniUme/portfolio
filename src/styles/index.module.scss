@@ -19,20 +19,22 @@
             
             .text{
                 font-size: 27px;
+                
+                .name{
+                    display: block;
+                    color: var(--green);
+                    border-right: var(--green) 4px solid;
+                    font-size: 32px;
+                    font-weight: bold;
+                    animation: console 0.6s 4s infinite steps(2, jump-none), typing 3s steps(18, jump-none) 0.5s normal both;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
             }
         
-            .name{
-                color: var(--green);
-                border-right: var(--green) 4px solid;
-                font-size: 32px;
-                font-weight: bold;
-                animation: console 0.6s 4s infinite steps(2, jump-none), typing 3s steps(18, jump-none) 0.5s normal both;
-                white-space: nowrap;
-                overflow: hidden;
-            }
 
             .subtitle{
-                color: gray;
+                color: #b1b1b1;
                 font-size: 18px;
                 font-weight: normal;
                 margin: 5px 0;
