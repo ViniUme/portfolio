@@ -111,7 +111,7 @@ export default function Index(){
                 <section className={styles.front}>
                     <div className={styles.text_column}>
                         <h1 className={styles.text}>
-                            <span>Hello there, I'm</span><br/>
+                            <span>Hello there, I&#39;m</span><br/>
                             <span className={styles.name}>Vinicius Henrique</span>
                         </h1>
 
@@ -128,7 +128,7 @@ export default function Index(){
                 <section className={styles.about} id="about">
                     <h2 className={styles.about_title}>About me</h2>
                     <span className={styles.about_text}>
-                        Hi, my name is Vinícius Henrique dos Santos, {age} years old. I'm full-stack developer. Bellow you can see my own projects. I took a technical course in system development and there I discovered my career. I love programming, mathematics, read, play games, study and automate system. At the moment I'm looking to refine my knowledge in the Next.js Framework, Linux and system structure.
+                        Hi, my name is Vinícius Henrique dos Santos, {age} years old. I&#39;m full-stack developer. Bellow you can see my own projects. I took a technical course in system development and there I discovered my career. I love programming, mathematics, read, play games, study and automate system. At the moment I&#39;m looking to refine my knowledge in the Next.js Framework, Linux and system structure.
                     </span>
                 </section>
                     
@@ -198,7 +198,7 @@ export default function Index(){
                         {skills.map((skill_item, key) => {
                             return(
                                 <div className={styles.skill_card} key={key}>
-                                    <Image className={styles.skill_img} src={skill_item.url} width={skill_item.width} height={35} alt="skills"/>
+                                    <object className={styles.skill_img} type="image/svg+xml" data={skill_item.url}/>
                                 </div>
                             );
                         })}
