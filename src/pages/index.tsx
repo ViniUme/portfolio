@@ -195,9 +195,9 @@ export default function Index(){
                 <section className={styles.skills} id="skills">
                     <span className={styles.skill_title}>Skills</span>
                     <div className={styles.skills_div}>
-                        {skills.map((skill_item) => {
+                        {skills.map((skill_item, key) => {
                             return(
-                                <div className={styles.skill_card}>
+                                <div className={styles.skill_card} key={key}>
                                     <Image className={styles.skill_img} src={skill_item.url} width={skill_item.width} height={35} alt="skills"/>
                                 </div>
                             );
