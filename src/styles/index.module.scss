@@ -261,4 +261,54 @@
             transform: scale(1.1);
         }
     }
+
+    .skills{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 150px 0;
+
+        .skill_title{
+            font-size: 28px;
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+
+        .skills_div{
+            width: 70%;
+            height: max-content;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            .skill_card{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 30px;
+                margin: 5px;
+                transition: 150ms ease-in-out;
+                cursor: pointer;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+
+                .skill_img{
+                    height: 35px;
+                    max-height: 90px;
+                    margin: 5px;
+                }
+            }
+        }
+        @media(max-width: 600px){
+            .skills_div{
+                width: 85%;
+            }
+        }
+    }
 }

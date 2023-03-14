@@ -6,6 +6,28 @@ import styles from '../styles/index.module.scss';
 
 export default function Index(){
 
+    const links = [
+        "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+        "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+        "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+        "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54",
+        "https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white",
+        "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+        "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+        "https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white",
+        "https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white",
+        "https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D",
+        "https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white",
+        "https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white",
+        "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white",
+        "https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white",
+        "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+        "https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase",
+        "https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white",
+        "https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white",
+        "https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white",
+        "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"
+    ]
     const [age, setAge] = useState(NaN)
 
     useEffect(() => {
@@ -107,6 +129,17 @@ export default function Index(){
                         <span className={styles.project_title}>Portfolio</span>
                         <span className={styles.project_tec}>Technologies: HTML, SASS, Next.js e Github Pages</span>
                     </a>
+                </section>
+
+                <section className={styles.skills} id="skills">
+                    <span className={styles.skill_title}>Skills</span>
+                    <div className={styles.skills_div}>
+                        {links.map( link => {
+                            return(
+                                <div className={styles.skill_card}><img className={styles.skill_img} src={link}/></div>
+                            );
+                        })}
+                    </div>
                 </section>
             </main>
         </>
