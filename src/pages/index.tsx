@@ -74,6 +74,40 @@ export default function Index(){
                         </a>
                     </div>
                 </section>
+
+                <section className={styles.projects} id="projects">
+                    <h2 className={styles.projects_title}>Projects</h2>
+                    <a href="https://limitsgym.vercel.app/" className={styles.project_div} target="_blank">
+                        <Image src="/img/projects/limits_gym.webp" width={280} height={151} alt="image"/>
+                        <span className={styles.project_title}>Limits Gym</span>
+                        <span className={styles.project_tec}>Technologies: HTML, CSS, SASS, React.js, Next.js, MongoDB, Mui-Material, Eslint e Vercel</span>
+                    </a>
+                    <a href="https://movies-website-eight.vercel.app/" className={styles.project_div} target="_blank">
+                        <Image src="/img/projects/movie.webp" width={280} height={151} alt="image"/>
+                        <span className={styles.project_title}>Movies Website</span>
+                        <span className={styles.project_tec}>Technologies: HTML, CSS, SASS, React.js, Next.js e Vercel</span>
+                    </a>
+                    <a href="http://database-login.vercel.app/" className={styles.project_div} target="_blank">
+                        <Image src="/img/projects/login.webp" width={280} height={151} alt="image"/>
+                        <span className={styles.project_title}>Database Login</span>
+                        <span className={styles.project_tec}>Technologies: HTML, CSS, SASS, React.js, Next.js, MongoDB e Vercel</span>
+                    </a>
+                    <a href="https://viniume.github.io/React-Calculator/" className={styles.project_div} target="_blank">
+                        <Image src="/img/calculator.webp" width={280} height={151} alt="image"/>
+                        <span className={styles.project_title}>React Calculator</span>
+                        <span className={styles.project_tec}>Technologies: HTML, CSS, React.js e Github Pages</span>
+                    </a>
+                    <a href="http://next-pokedex-one.vercel.app/" className={styles.project_div} target="_blank">
+                        <Image src="/img/projects/pokedex.webp" width={280} height={151} alt="image"/>
+                        <span className={styles.project_title}>Next Pokedex</span>
+                        <span className={styles.project_tec}>Technologies: HTML, SCSS, React.js, Next.js e Vercel</span>
+                    </a>
+                    <a href="https://github.com/ViniUme/Portfolio" className={styles.project_div} target="_blank">
+                        <Image src="/img/projects/portfolio.webp" width={280} height={151} alt="image"/>
+                        <span className={styles.project_title}>Portfolio</span>
+                        <span className={styles.project_tec}>Technologies: HTML, CSS, Vue.js e Github Pages</span>
+                    </a>
+                </section>
             </main>
         </>
     );
