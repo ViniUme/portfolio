@@ -105,7 +105,7 @@ export default function Index(){
                     <a href="https://github.com/ViniUme/Portfolio" className={styles.project_div} target="_blank">
                         <Image src="/img/projects/portfolio.webp" width={280} height={151} alt="image"/>
                         <span className={styles.project_title}>Portfolio</span>
-                        <span className={styles.project_tec}>Technologies: HTML, CSS, Vue.js e Github Pages</span>
+                        <span className={styles.project_tec}>Technologies: HTML, SASS, Next.js e Github Pages</span>
                     </a>
                 </section>
             </main>
