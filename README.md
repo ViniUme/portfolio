@@ -1,38 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <h1>Portfolio</h1>
 
-## Getting Started
+  <img alt="GitHub" src="https://img.shields.io/github/license/ViniUme/Portfolio?color=00ce3a&style=for-the-badge">
+  <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/ViniUme/Portfolio?color=212121&style=for-the-badge">
 
-First, run the development server:
+  <br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+  <img src="https://github.com/ViniUme/assets/blob/master/portf%C3%B3lio.PNG?raw=true">
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Translation
+- [Protuguês Brasileiro](https://github.com/ViniUme/Portfolio/blob/master/translation/README-ptbr.md)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<br>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## About
+This is my portfolio where others people can view my contacts, projects and skills. I made this project to learn Vue.js and to have more one method of contact.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+<table>
+  <tr>
+    <td>Front-End</td>
+    <td>Back-End</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"></td>
+    <td><img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"></td>
+  </tr>
+</table>
 
-To learn more about Next.js, take a look at the following resources:
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to run
+Clone this repository:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    git clone https://github.com/ViniUme/Portfolio.git
+    
+Have Node.js installed. With terminal opened in project folder, install the dependencies :
 
-## Deploy on Vercel
+    npm install
+        or
+    yarn
+    
+Then type this command in to run local server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    npm run dev
+       or
+    yarn dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Then in your navigator the localhost in port 3000
