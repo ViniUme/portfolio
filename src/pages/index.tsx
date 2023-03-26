@@ -176,7 +176,7 @@ export default function Index(){
                         <span className={styles.project_tec}>Technologies: HTML, CSS, SASS, React.js, Next.js, MongoDB e Vercel</span>
                     </Link>
                     <Link href="https://viniume.github.io/React-Calculator/" className={styles.project_div} target="_blank">
-                        <Image src="/img/calculator.webp" width={280} height={151} alt="image"/>
+                        <Image src="/img/projects/calculator.webp" width={280} height={151} alt="image"/>
                         <span className={styles.project_title}>React Calculator</span>
                         <span className={styles.project_tec}>Technologies: HTML, CSS, React.js e Github Pages</span>
                     </Link>
